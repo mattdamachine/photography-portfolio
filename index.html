@@ -1,0 +1,245 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- ICONS -->
+    <script
+      src="https://kit.fontawesome.com/9032d7dba8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- SWIPERJS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- GOOGLE FONT (Monserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html" class="nav_logo">
+          <img src="./images/photoLogo-noBG.png" alt="nav logo"
+        /></a>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#exhibitions">Exhibitions</a></li>
+        </ul>
+        <ul class="nav_socials">
+          <li>
+            <a
+              class="insta_logo"
+              href="https://instagram.com/35millimatter"
+              target="_blank"
+              ><i class="insta_logo fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+        <button class="nav_toggle-btn" id="nav_toggle-open">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="nav_toggle-btn" id="nav_toggle-close">
+          <i class="fa-solid fa-x"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- ====================================== END OF NAV ====================================== -->
+
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <div class="header_image-bg"></div>
+          <div class="header_image-lg">
+            <img src="./images/profile-pic-1-tall.JPG" alt="header image" />
+          </div>
+          <div class="header_image-sm">
+            <img src="./images/profile-pic-1-tall.JPG" alt="header image" />
+          </div>
+        </div>
+        <div class="header_right">
+          <div class="header_head">
+            <div class="empty header_empty"></div>
+            <!-- <a class="header_tag">This is a section</a> -->
+          </div>
+          <h1>Seizing the moment...</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            voluptate fuga ad veniam officia molestiae alias architecto, nisi
+            quae nemo repudiandae dolor reprehenderit fugiat aliquid sed odit
+            fugit? Culpa, porro?
+          </p>
+          <a href="mailto:coronadomp95@gmail.com" class="header_btn-md"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+    </header>
+    <div class="header_frames">
+      <div class="header_frame">
+        <img src="images/header_img_1.jpg" alt="header image" />
+      </div>
+      <div class="header_frame">
+        <img src="images/header_img_2.jpg" alt="header image" />
+      </div>
+    </div>
+    <a href="mailto:coronadomp95@gmail.com" class="contact_btn header_btn">
+      <i class="fa-regular fa-envelope"></i>
+    </a>
+    <!-- ====================================== END OF HEADER ====================================== -->
+
+    <section id="about">
+      <div class="container about_container">
+        <h2 class="about_title">
+          About <br />
+          Matthew Coronado
+        </h2>
+        <a href="mailto:coronadomp95@gmail.com" class="contact_btn about_btn">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <div class="about_left">
+          <div class="about_image-bg"></div>
+          <div class="about_image-lg">
+            <img src="images/about_img.jpg" alt="about img" />
+          </div>
+          <div class="about_image-sm_container">
+            <img class="sm-image" src="images/about_img.jpg" alt="about img" />
+          </div>
+        </div>
+        <div class="about_right">
+          <div class="empty about_empty"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            voluptate fuga ad veniam officia molestiae alias architecto, nisi
+            quae nemo repudiandae dolor reprehenderit fugiat aliquid sed odit
+            fugit? Culpa, porro?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            voluptate fuga ad veniam officia molestiae alias architecto, nisi
+            quae nemo repudiandae dolor reprehenderit fugiat aliquid sed odit
+            fugit? Culpa, porro?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            voluptate fuga ad veniam officia molestiae alias architecto, nisi
+            quae nemo repudiandae dolor reprehenderit fugiat aliquid sed odit
+            fugit? Culpa, porro?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== END OF ABOUT ====================================== -->
+
+    <section id="gallery">
+      <div class="gallery_head container">
+        <h2 class="gallery_title">Gallery</h2>
+        <div class="empty gallery_empty"></div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+        voluptate fuga ad veniam officia molestiae alias architecto, nisi quae
+        nemo repudiandae dolor reprehenderit fugiat aliquid sed odit fugit?
+        Culpa, porro?
+      </p>
+      <div class="swiper-container">
+        <div class="container gallery_container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <article class="swiper-slide">
+              <img src="images/gallery1.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery2.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery3.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery4.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery5.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery6.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery7.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery8.JPG" />
+            </article>
+            <article class="swiper-slide">
+              <img src="images/gallery9.JPG" />
+            </article>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <!-- ====================================== END OF GALLERY ====================================== -->
+
+    <section id="exhibitions">
+      <div class="container exhibitions_container">
+        <h2 class="exhibitions_title">Exhibitions</h2>
+        <div class="empty exhibitions_empty"></div>
+        <div class="exhibitions_head">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            voluptate fuga ad veniam officia molestiae alias architecto, nisi
+            quae nemo repudiandae dolor reprehenderit fugiat aliquid sed odit
+            fugit? Culpa, porro?
+          </p>
+          <a
+            href="mailto:coronadomp95@gmail.com"
+            class="contact_btn exhibitions_btn"
+          >
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+        <div class="exhibitions_gallery">
+          <article><img src="images/exhib.jpg" /></article>
+          <article><img src="images/exhib1.jpg" /></article>
+          <article><img src="images/exhib2.jpg" /></article>
+          <article><img src="images/exhib3.jpg" /></article>
+          <article><img src="images/exhib4.jpg" /></article>
+          <article><img src="images/exhib5.jpg" /></article>
+          <article><img src="images/exhib6.jpg" /></article>
+          <!-- <article><img src="images/exhib7.jpg"></article> -->
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== END OF EXHIBTIONS ====================================== -->
+
+    <footer>
+      <div class="container footer_container">
+        <div class="footer_head">
+          <h3 class="footer_title">coronadomp95@gmail.com</h3>
+          <a href="mailto:coronadomp95@gmail.com" class="footer_btn"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+        </div>
+        <ul class="footer_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#exhibitions">Exhibitions</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
